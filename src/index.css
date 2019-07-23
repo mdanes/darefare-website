@@ -23,8 +23,14 @@ code {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
   letter-spacing: .1rem;
+}
+
+h2 {
+  font-size: 1em;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /*
@@ -49,12 +55,12 @@ h1, h2, h3, h4, h5, h6 {
     rgb(236, 240, 241)
 */
 
-.background--skyBlue {
-  background-color: rgb(52, 152, 219);
+.background--slateGrey {
+  background-color: rgb(55, 71, 79);
 }
 
-.color--skyBlue {
-  color: rgb(52, 152, 219);
+.color--slateGrey {
+  color: rgb(55, 71, 79);
 }
 
 .color--cloud {
@@ -140,13 +146,8 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
-.section__example:active {
-  transition: 0.05s all;
-  width: 34rem;
-  height: 34rem;
-}
-
 .section__exampleTitle{
+  font-family: 'Slabo 27px', serif;
   font-size: 3.4rem;
   text-align: center;
   text-transform: uppercase;

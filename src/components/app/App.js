@@ -8,13 +8,13 @@ function App() {
   return (
     <>
     <main className="overflow--auto">
-      <h1 className="color--skyBlue section__heading--largest">
-        Darefare
+      <h1 className="color--slateGrey section__heading--largest">
+        DAREFARE
       </h1>
 
       <ul className="section--social">
         <li className="socialWrapper">
-          <a className="color--skyBlue social"
+          <a className="color--slateGrey social"
              title="LinkedIn Profile"
              target="_blank"
              rel="noopener noreferrer"
@@ -23,8 +23,8 @@ function App() {
           </a>
         </li>
         
-        <li className="socialWrapper color--skyBlue">
-          <a className="social color--skyBlue"
+        <li className="socialWrapper color--slateGrey">
+          <a className="social color--slateGrey"
              title="GitHub Profile"
              target="_blank"
              rel="noopener noreferrer"
@@ -34,7 +34,7 @@ function App() {
         </li>
 
         <li className="socialWrapper">
-          <a className="social color--skyBlue"
+          <a className="social color--slateGrey"
              title="Resume"
              href="/">
             <i className="fa fa-file-text"></i>
@@ -44,9 +44,9 @@ function App() {
 
       </main>
 
-      <section className="background--skyBlue section">
+      <section className="background--slateGrey section">
         <h2 className="color--cloud margin--none section__text--centered">
-          Portfolio
+        Redefine how your brand connects with your audience
         </h2>
       </section>
 
@@ -58,7 +58,7 @@ function App() {
                 src={work1}/>
             <dl className="color--cloud">
               <dt className="section__exampleTitle section__text--centered">
-                Work Example
+                Campaign Example
               </dt>
               <dd></dd>
             </dl>
@@ -72,7 +72,7 @@ function App() {
                 src={work2}/>
             <dl className="color--cloud">
               <dt className="section__exampleTitle section__text--centered ">
-                Work Example
+                Campaign Example
               </dt>
               <dd></dd>
             </dl>
@@ -86,7 +86,7 @@ function App() {
                 src={work3}/>
             <dl className="color--cloud">
               <dt className="section__exampleTitle section__text--centered">
-                Work Example
+                Campaign Example
               </dt>
               <dd></dd>
             </dl>
@@ -94,9 +94,9 @@ function App() {
         </div>
       </section>
 
-      <section className="background--skyBlue section">
+      <section className="background--slateGrey section">
         <h2 className="color--cloud margin--none section__text--centered">
-          About Me
+          About DAREFARE
         </h2>
       </section>
 
@@ -105,7 +105,7 @@ function App() {
           Use this space to reference presentation deck
         </p>
       </section>
-      <div className="background--skyBlue modal--closed">
+      <div className="background--slateGrey modal--closed">
         <span className="color--cloud modal__closeButton">
           <i className="fa fa-window-close-o"></i>
         </span>
@@ -116,7 +116,7 @@ function App() {
           <h2 className="modal__title">
             Work Example Name
           </h2>
-          <a className="color--skyBlue modal__link"
+          <a className="color--slateGrey modal__link"
             href="{}">
             Check it out
           </a>
